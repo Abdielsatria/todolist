@@ -132,7 +132,7 @@ if (isset($_POST['update_task'])) {
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    Tanggal deadline tidak boleh kurang dari tanggal hari ini!
+                    Tanggal deadline tidak boleh kurang dari tanggal hari ini :3
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>

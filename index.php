@@ -43,6 +43,7 @@ if (isset($_GET['delete'])) {
     exit();
 }
 
+
 // Pencarian dan filter prioritas
 $search = isset($_GET['search']) ? $_GET['search'] : "";
 $filter_priority = isset($_GET['priority']) ? $_GET['priority'] : "";
@@ -176,7 +177,7 @@ $result = mysqli_query($koneksi, $query);
 </head>
 <body>
     <div class="container mt-4">
-        <h2 class="text-center mb-4">UKK Tu Du Lis</h2>
+        <h2 class="text-center mb-4">Bissmilah Lancar</h2>
 
         <!-- Form Tambah Task -->
         <div class="task-card">
